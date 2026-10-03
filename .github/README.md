@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-efs`](https://www.npmjs.com/package/@aws-sdk/client-efs/v/3.1145.0).
+[`@aws-sdk/client-efs`](https://www.npmjs.com/package/@aws-sdk/client-efs/v/3.1146.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-efs - [https://cloud-sdk-builds.github.io/?sdk=client-efs](https://cloud-sdk-builds.github.io/?sdk=client-efs)
-- @aws-sdk/client-efs v3.1145.0 - [https://cloud-sdk-builds.github.io/?sdk=client-efs&version=3.1145.0](https://cloud-sdk-builds.github.io/?sdk=client-efs&version=3.1145.0)
+- @aws-sdk/client-efs v3.1146.0 - [https://cloud-sdk-builds.github.io/?sdk=client-efs&version=3.1146.0](https://cloud-sdk-builds.github.io/?sdk=client-efs&version=3.1146.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-efs@3.1145.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-efs@3.1146.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-kA7rEEtbajGtKL2Y59ySke5dPw/DIQbnb+oWQcM0SxShki0YfZBju/j3CSi2WJE7
+sha384-/d1Ev2OAQ9L6L1lOZaukEz+RwAG3Ics6wa3JKeiguafde4X/DEQO+DChRRvK5CLs
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-efs": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-efs@3.1145.0/index.min.mjs"
+            "@aws-sdk/client-efs": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-efs@3.1146.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-efs@3.1145.0/index.min.mjs": "sha384-kA7rEEtbajGtKL2Y59ySke5dPw/DIQbnb+oWQcM0SxShki0YfZBju/j3CSi2WJE7"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-efs@3.1146.0/index.min.mjs": "sha384-/d1Ev2OAQ9L6L1lOZaukEz+RwAG3Ics6wa3JKeiguafde4X/DEQO+DChRRvK5CLs"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-efs": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-efs@3.1145.0/index.min.mjs"
+                        "@aws-sdk/client-efs": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-efs@3.1146.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-efs@3.1145.0/index.min.mjs": "sha384-kA7rEEtbajGtKL2Y59ySke5dPw/DIQbnb+oWQcM0SxShki0YfZBju/j3CSi2WJE7"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-efs@3.1146.0/index.min.mjs": "sha384-/d1Ev2OAQ9L6L1lOZaukEz+RwAG3Ics6wa3JKeiguafde4X/DEQO+DChRRvK5CLs"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1145.0`)
+* Always pin to a specific version (`@3.1146.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-efs/blob/refs/tags/3.1145.0/LICENSE
+https://github.com/cloud-sdk-builds/client-efs/blob/refs/tags/3.1146.0/LICENSE
 ```
 
 ---
